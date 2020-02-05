@@ -1,8 +1,8 @@
 ---
 title: "Data analysis assignment 2"
-author: "[add your name here]"
-date: "[add date here]"
-output: github_document
+author: "ak"
+date: "g"
+output: github_document ## Yoy have to choose gutub document
 ---
 
 ```{r setup, include=FALSE}
@@ -24,9 +24,9 @@ We will work with three different tables: household roster from wave 8 (*h_egoal
 ```{r}
 library(tidyverse)
 # You need to complete the paths to these files on your computer.
-Egoalt8 <- read_tsv("...h_egoalt.tab")
-Stable <- read_tsv("...xwavedat.tab")
-Hh8 <- read_tsv("...h_hhresp.tab")
+Egoalt8 <- read_tsv("C:/Users/alhus/OneDrive/Desktop/UKDA-6614-tab/tab/ukhls_w8/h_egoalt.tab")
+Stable <- read_tsv("C:/Users/alhus/OneDrive/Desktop/UKDA-6614-tab/tab/ukhls_wx/xwavedat.tab")
+Hh8 <- read_tsv("C:/Users/alhus/OneDrive/Desktop/UKDA-6614-tab/tab/ukhls_w8/h_hhresp.tab")
 ```
 
 ## Filter household roster data (10 points)
